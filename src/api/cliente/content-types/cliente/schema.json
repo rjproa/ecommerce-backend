@@ -13,8 +13,8 @@
   "attributes": {
     "password": {
       "type": "string",
-      "required": true,
-      "minLength": 8
+      "minLength": 8,
+      "required": true
     },
     "codigo": {
       "type": "uid",
@@ -44,6 +44,10 @@
       "type": "integer",
       "required": true,
       "default": 0
+    },
+    "opcion": {
+      "type": "integer",
+      "default": 1
     }
   }
 }

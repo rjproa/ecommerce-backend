@@ -495,6 +495,7 @@ export interface ApiClienteCliente extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     nombre: Schema.Attribute.String & Schema.Attribute.Required;
+    opcion: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<1>;
     password: Schema.Attribute.String &
       Schema.Attribute.Required &
       Schema.Attribute.SetMinMaxLength<{
