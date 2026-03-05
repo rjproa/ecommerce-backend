@@ -17,6 +17,7 @@
   "dependencies": {
     "@strapi/plugin-cloud": "5.33.3",
     "@strapi/plugin-users-permissions": "5.33.3",
+    "@strapi/provider-upload-cloudinary": "^5.38.0",
     "@strapi/strapi": "5.33.3",
     "bcryptjs": "^3.0.3",
     "pg": "^8.8.0",
